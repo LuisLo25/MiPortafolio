@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <div id="particles-js"></div>
     <div class="Container">
         <nav class="NavBar">
@@ -28,10 +29,16 @@
                         <h2 class="ID-Card-Nombres">Luis Alberto López Huancas </h2>
                     </div>
                     <div class="Presentacion-Card">
-                        <div class="prueba">
-                            <h1 class="Presentacion-Card-Descripcion" id="Texto"></h1>
+                        <div class="Presentacion-Card-Descripcion-Container">
+                            
+                        
+                        <h1 class="Presentacion-Card-Descripcion" id="Texto"></h1>
+                        <h2 class="Presentacion-Card-Descripcion-Fijo">Dispuesto a <span
+                            class="Presentacion-Card-Descripcion-Automatico"></span></h2>
                         </div>
+
                         <img class="Presentacion-Card-Foto" src="/ASSETS/Imagen1.svg" alt="">
+                        
                     </div>
                 </div>
             </section>
@@ -131,8 +138,6 @@
                                 </p>
 
                             </div>
-
-
                         </div>
                     </div>
             </section>
@@ -143,15 +148,15 @@
                         method="POST" id="form">
                         <div class="Contáctame-Form-Flex">
                             <input class="Contáctame-Form-Flex-Input" type="text" name="Nombres"
-                                placeholder="Nombres y Apellidos"  required>
+                                placeholder="Nombres y Apellidos" required>
                             <input class="Contáctame-Form-Flex-Input" type="email" name="email"
-                                placeholder="nombre@mail.com"required >
+                                placeholder="nombre@mail.com" required>
                         </div>
                         <textarea class="Contáctame-Form-Flex-Text-Area" name="comentario" cols="15" rows="5"
                             placeholder="Escribe aquí un breve mensaje" required></textarea>
                         <input class="Contáctame-Form-Boton" type="submit" value="Enviar">
 
-                       <input type="hidden" name="_next" value="http://127.0.0.1:5500/HTML/index.html">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/HTML/index.html">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
                         <!-- <input type="hidden" name="_autoresponse" value="Gracias por contactarme. Estare en contacto contigo a la brevedad">-->
@@ -162,12 +167,12 @@
         <footer class="Footer">
             <div class="Footer-Container">
                 <h3 class="Footer-Container-RedesSociales-Titulo">Redes Sociales</h>
-                <div class="Footer-Container-RedesSociales">      
-                    <img src="/ASSETS/Face-Icon.svg" alt=""> 
-                    <img src="/ASSETS/Linkind-Icon.svg" alt="">
-                    <img src="/ASSETS/GitHub-Icon.svg" alt="">
-                </div>
-                <h3 class="Footer-Container-Copyright">©Luis Alberto López Huancas 2023 - All Rights Reserved</h3>
+                    <div class="Footer-Container-RedesSociales">
+                        <img src="/ASSETS/Face-Icon.svg" alt="">
+                        <img src="/ASSETS/Linkind-Icon.svg" alt="">
+                        <img src="/ASSETS/GitHub-Icon.svg" alt="">
+                    </div>
+                    <h3 class="Footer-Container-Copyright">©Luis Alberto López Huancas 2023 - All Rights Reserved</h3>
 
             </div>
         </footer>
@@ -178,7 +183,6 @@
     <script src="/JAVASCRIPT/AnimacionScroll.js"></script>
     <script src="/JAVASCRIPT/EfectoMaquinaEscribir2.js"></script>
     <script src="/JAVASCRIPT/ScrollSpy.js"></script>
-    <script src="/JAVASCRIPT/ValidacionForm.js"></script>
 </body>
 
 </html>
