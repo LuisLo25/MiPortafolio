@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /*---------------------Reset--------------------*/
 :root {
 
     background-color: rgba(5, 2, 13, 0.9);
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Mono', monospace;
     color: #F8FEFB;
     ;
 }
@@ -150,12 +150,6 @@ body {
     z-index: -1;
 
 }
-
-/*.Container {
-    position: relative;
-    z-index: 99;
-    width: 100%;
-}*/
 .Main{
     display: grid;
     grid-template-rows:repeat(3,minmax(0,1fr));
@@ -308,14 +302,14 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     text-shadow: 0px 0px 2px #2EF8A0,
         0px 0px 8px #2EF8A0,
         0px 0px 10px #2EF8A0,
         0px 0px 16px #2EF8A0;
 }
 #Texto {
-    font-size: 5.1rem;
+    font-size: 4rem;
     font-weight: 500;
     height: 5rem;
 }
@@ -350,13 +344,14 @@ section {
 }
 .Presentacion-Card-Descripcion-Fijo{
     color: #2EF8A0;
-    font-size: 45px;
+    font-size: 28px;
     line-height: normal;
     text-shadow: 0px 0px 2px #2EF8A0,
         0px 0px 8px #2EF8A0,
         0px 0px 10px #2EF8A0,
         0px 0px 16px #2EF8A0;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
+        text-align: justify;
 }
 .Presentacion-Card-Descripcion-Automatico{
     color: #F8FEFB;
