@@ -9,6 +9,7 @@
     ;
 }
 
+
 @media (prefers-reduced-motion: reduce) {
     * {
         animation: none !important;
@@ -179,7 +180,6 @@ section {
     width: 1616px;
     height: 850px;
 }
-
 /*---------------------Menu--------------------*/
 .NavBar {
     display: flex;
