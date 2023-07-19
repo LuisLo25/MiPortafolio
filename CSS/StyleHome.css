@@ -241,8 +241,7 @@ section {
         box-shadow: none;
     }
 
-}
-
+}   
 /*---------------------Primera Seccion--------------------*/
 .Seccion1 {
     display: grid;
@@ -262,6 +261,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 277px;
     height: 640px;
     flex-shrink: 0;
@@ -851,22 +851,36 @@ section {
         padding-right: 5px;
     }
     .Seccion1{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
         width: 716px;
+        height: 1300px;
+        
     }
     .ID-Card{
-        width: 97px;
+        width: 207px;
+        margin-left: 0;
+        margin-top: -5rem;
+        
     }
     .Presentacion-Card{
-        width: 305px;
+        width: 405px;
+        margin-bottom: 5rem;
     }
     .Seccion2{
-        width: 716px
+        margin-top: 30rem;
+        width: 716px;
+        height: 2750px;
     }
     .AcercadeMiCard-Card-secciones-Seccion p{
         font-size: 22px;
     }
     .Seccion3{
-        width: 716px
+        margin-top: 500px;
+        width: 716px;
+        height: 850px;
     }
     .Contáctame-Form-Boton{
     
@@ -874,6 +888,10 @@ section {
     }
     .Footer-Container{
         width: 716px;
+        margin-top: 50rem;
     }
+}
+@media screen and (max-width: 750px){
+
 }
 
