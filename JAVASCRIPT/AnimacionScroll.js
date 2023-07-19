@@ -20,7 +20,7 @@ sr.reveal('.Seccion2',{
 sr.reveal('.Seccion3',{
     duration:4000,
     origin:'left',
-    distance:'-100px',
+    distance:'-50px',
     reset:"true"
 });
 sr.reveal('.Footer',{

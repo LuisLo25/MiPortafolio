@@ -185,29 +185,32 @@ section {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 60px;
+    height: 120px;
     justify-content: center;
     opacity: 0.8;
     margin-bottom: -32rem;
-
+    padding: 40px;
+    
 }
 
 .Box-Links {
     display: flex;
     gap: 30%;
     justify-content: center;
+    align-items: center;
     width: 1616px;
     height: 46px;
-    margin-top: 1%;
     flex-shrink: 0;
     background-color: #0C0420;
     border-radius: 10px;
     border: 1px solid #2EF8A0;
     box-shadow: 0px 0px 16px 0px rgba(46, 248, 160, 0.50);
+    position: fixed;
+    
 }
 
 .NavBarLinks {
-    margin-top: 0.2%;
+    margin-top: 0.5rem;
     text-align: center;
     font-size: 24px;
     font-style: normal;
@@ -251,6 +254,7 @@ section {
     background-color: #0C0420;
     border-radius: 8px;
     opacity: 0.8;
+    
 
 }
 
@@ -332,9 +336,7 @@ section {
 .Presentacion-Card-Foto {
     width: 374px;
     height: 512px;
-    margin-top: 160px;
-    margin-left: 30px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px;
 }
 .Presentacion-Card-Descripcion-Container{
     display: flex;
@@ -351,7 +353,7 @@ section {
         0px 0px 10px #2EF8A0,
         0px 0px 16px #2EF8A0;
         margin-left: 1rem;
-        text-align: justify;
+        text-align: start;
 }
 .Presentacion-Card-Descripcion-Automatico{
     color: #F8FEFB;
@@ -473,26 +475,23 @@ section {
 }
 /*---------------------Tercera Seccion--------------------*/
 .Seccion3 {
-
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     background-color: #0C0420;
     border-radius: 8px;
     opacity: 0.8;
 }
 .Contáctame-Form{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 80rem;
-    height: 30rem;
-    border-radius: 8px;
+    border-radius: 8px; 
 }
 .Seccion3_Titulo{
-    margin-top: 2rem;
     text-align: center;
     font-size: 45px;
     font-weight: 400;
     line-height: normal;
-    margin-top: 10rem;
     text-shadow: 0px 0px 2px #2EF8A0,
         0px 0px 8px #2EF8A0,
         0px 0px 10px #2EF8A0,
@@ -522,8 +521,8 @@ section {
     outline: none;
 }
 .Contáctame-Form-Flex-Text-Area{
-   padding-top: 1rem;
-    width: 53rem;
+    padding-top: 1rem;
+    width: 100%;
     height: 10rem;
     border-radius: 8px;
     margin-top: 5rem;
@@ -531,7 +530,7 @@ section {
     text-align: justify;
     color: #0C0420;
     background-color: #F8FEFB;
-    border: 2px solid #F8FEFB
+    border: 2px solid #F8FEFB;
 }
 .Contáctame-Form-Flex-Text-Area:focus{
     border: 2px solid #2EF8A0;
@@ -544,6 +543,7 @@ section {
     border-radius: 8px;
     box-shadow: 0px 0px 16px 0px rgba(46, 248, 160, 0.50);
     margin-top: 5rem;
+    margin-left: 18rem;
     cursor: pointer;
     text-shadow: 0px 0px 2px #2EF8A0,
         0px 0px 8px #2EF8A0,
@@ -573,6 +573,7 @@ section {
     border-radius: 10px;
     border: 1px solid #2EF8A0;
     box-shadow: 0px 0px 16px 0px rgba(46, 248, 160, 0.50);
+  
 }
 .Footer-Container-RedesSociales-Titulo{
     font-size: 40px;
@@ -583,9 +584,10 @@ section {
         text-align: center;   
 }
 .Footer-Container-RedesSociales{
-   width: 1616px;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
+    gap: 10rem;
     align-items: center;
     margin-top: 1rem;
     
@@ -605,4 +607,273 @@ section {
         text-align: center;   
 }
 
+/*---------------------Response--------------------*/
+@media screen and (max-width: 1650px){
+    .Box-Links{
+        width: 1516px;
+    }
+    .Seccion1{
+        width: 1516px;
+    }
+    .ID-Card{
+        width: 237px;
+    }
+    .ID-Card-Nombres{
+        font-size: 32px;
+    }
+    .Presentacion-Card{
+        width: 1005px;
+    }
+    .Seccion2{
+        width: 1516px
+    }
+    .Seccion3{
+        width: 1516px
+    }
+    .Footer-Container{
+        width: 1516px;
+    }
+
+}
+@media screen and (max-width: 1550px){
+    .Box-Links{
+        width: 1416px;
+    }
+    .Seccion1{
+        width: 1416px;
+    }
+    .ID-Card{
+        width: 197px;
+    }
+    .ID-Card-Nombres{
+        font-size: 32px;
+    }
+    .Presentacion-Card{
+        width: 905px;
+    }
+    .Seccion2{
+        width: 1416px
+    }
+    .AcercadeMiCard-Card-secciones-Seccion p{
+        font-size: 34px;
+    }
+    .Seccion3{
+        width: 1416px
+    }
+    .Footer-Container{
+        width: 1416px;
+    }
+}
+@media screen and (max-width: 1450px){
+    .Box-Links{
+        width: 1316px;
+    }
+    .Seccion1{
+        width: 1316px;
+    }
+    .ID-Card-Nombres{
+        font-size: 28px;
+    }
+    .Presentacion-Card{
+        width: 805px;
+    }
+    #Texto {
+        font-size: 3rem;
+       
+    }
+    .Presentacion-Card-Descripcion-Fijo{
+        font-size:22px ;
+    }
+    .Seccion2{
+        width: 1316px
+    }
+    .Seccion3{
+        width: 1316px
+    }
+    .Footer-Container{
+        width: 1316px;
+    }
+}
+@media screen and (max-width: 1350px){
+    .Box-Links{
+        width: 1216px;
+    }
+    .Seccion1{
+        width: 1216px;
+    }
+    .ID-Card{
+        width: 157px;
+    }
+    .Presentacion-Card{
+        width: 705px;
+    }
+    #Texto {
+        font-size: 2.5rem;
+       
+    }
+    .Seccion2{
+        width: 1216px
+    }
+    .AcercadeMiCard-Card-secciones-Seccion p{
+        font-size: 30px;
+    }
+    .Seccion3{
+        width: 1216px
+    }
+    .Footer-Container{
+        width: 1216px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .Box-Links{
+        width: 1116px;
+    }
+    .NavBarLinks{
+        font-size: 18px;
+    }
+    .Seccion1{
+        width: 1116px;
+    }
+    .Presentacion-Card{
+        width: 605px;
+    }
+    .Seccion2{
+        width: 1116px
+    }
+    .Seccion3{
+        width: 1116px
+    }
+    .Footer-Container{
+        width: 1116px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .Box-Links{
+        width: 916px;
+    }
+    .NavBarLinks{
+        font-size: 18px;
+    }
+    .Seccion1{
+        width: 916px;
+    }
+    .Presentacion-Card{
+        width: 505px;
+    }
+    #Texto {
+        font-size: 2rem;
+       
+    }
+    .Presentacion-Card-Descripcion-Fijo{
+        font-size:18px ;
+    }
+    .Presentacion-Card-Foto{
+        padding: 8px;
+    }
+    .Seccion2{
+        width: 916px
+    }
+    .AcercadeMiCard-ContainerNav-enlaces{
+        font-size: 16px;
+    }
+    .AcercadeMiCard-Card-secciones-Seccion p{
+        font-size: 26px;
+    }
+    .Seccion3{
+        width: 916px
+    }
+    .Seccion3_Titulo{
+        font-size: 36px;
+    }
+    .Contáctame-Form{
+        width: 80%;
+    }
+    .Contáctame-Form-Boton{
+        width: 10rem;
+    }
+    .Footer-Container{
+        width: 916px;
+    }
+    .Footer-Container-RedesSociales-Titulo{
+        font-size: 36px;
+    }
+    .Footer-Container-Copyright{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 950px){
+    .Box-Links{
+        width: 816px;
+    }
+    .NavBarLinks{
+        font-size: 18px;
+        font-weight: 200;
+
+    }
+    .Seccion1{
+        width: 816px;
+    }
+    .ID-Card{
+        width: 117px;
+    }
+    .Presentacion-Card{
+        width: 405px;
+    }
+    #Texto {
+        font-size: 1.5rem;
+       
+    }
+    .Presentacion-Card-Descripcion-Fijo{
+        font-size:14px ;
+    }
+    .Seccion2{
+        width: 816px
+    }
+    .Seccion3{
+        width: 816px
+    }
+    .Contáctame-Form-Boton{
+        width: 8rem;
+        margin-left: 16rem;
+    }
+    .Footer-Container{
+        width: 816px;
+    }
+}
+@media screen and (max-width: 850px){
+    .Box-Links{
+        width: 716px;
+    }
+    .NavBarLinks{
+        font-size: 16px;
+        font-weight: 200;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .Seccion1{
+        width: 716px;
+    }
+    .ID-Card{
+        width: 97px;
+    }
+    .Presentacion-Card{
+        width: 305px;
+    }
+    .Seccion2{
+        width: 716px
+    }
+    .AcercadeMiCard-Card-secciones-Seccion p{
+        font-size: 22px;
+    }
+    .Seccion3{
+        width: 716px
+    }
+    .Contáctame-Form-Boton{
+    
+        margin-left: 13rem;
+    }
+    .Footer-Container{
+        width: 716px;
+    }
+}
 
