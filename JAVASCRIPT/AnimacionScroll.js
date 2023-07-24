@@ -1,31 +1,31 @@
-window.sr=ScrollReveal();
-sr.reveal('.NavBar',{
+
+window.sr = ScrollReveal();
+sr.reveal('.NavBar', {
     duration: 4000,
-    origin:'bottom',
-    distance:'-100px',
-    reset:"true"
+    origin: 'bottom',
+    distance: '-20px',
+    reset: "true",
+    mobile: "false"
 });
-sr.reveal('.Seccion1',{
+sr.reveal('.Seccion1', {
     duration: 4000,
-    origin:'bottom',
-    distance:'-100px',
-    reset:"true"
+    origin: 'bottom',
+    distance: '-20px',
+    reset: "true",
+    mobile: "false"
 });
-sr.reveal('.Seccion2',{
+sr.reveal('.Seccion2', {
     duration: 4000,
-    origin:'right',
-    distance:'-100px',
-    reset:"true"
+    origin: 'right',
+    distance: '-20px',
+    reset: "true",
+    mobile: "false"
 });
-sr.reveal('.Seccion3',{
-    duration:4000,
-    origin:'left',
-    distance:'-50px',
-    reset:"true"
+sr.reveal('.Seccion3', {
+    duration: 4000,
+    origin: 'left',
+    distance: '-20px',
+    reset: "true",
+    mobile: "false"
 });
-sr.reveal('.Footer',{
-    duration:4000,
-    origin:'top',
-    distance:'-100px',
-    reset:"true"
-})
+

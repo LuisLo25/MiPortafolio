@@ -128,10 +128,13 @@ svg {
 
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;    
     min-height: 100vh;
     font-size: 100%;
     font-family: var(--tipo-principal);
-    color: var(--negro);
 
     hyphens: auto;
 
@@ -152,12 +155,12 @@ body {
 
 }
 .Main{
-    display: grid;
-    grid-template-rows:repeat(3,minmax(0,1fr));
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items:center;
+    gap:15rem;
     width: 100%;
-    height: 350rem;
 }
 section {
     display: flex;
@@ -165,20 +168,23 @@ section {
     width: 100%;
     flex-shrink: 0;
     justify-content: center;
-    margin-top: 5rem;
+    
 }
 .Sec1{
    
     width: 1616px;
     height: 800px;
+   
 }
 .Sec2{
     width: 1616px;
     height: 2750px;
+    
 }
 .Sec3{
     width: 1616px;
     height: 850px;
+    
 }
 /*---------------------Menu--------------------*/
 .NavBar {
@@ -188,7 +194,6 @@ section {
     height: 120px;
     justify-content: center;
     opacity: 0.8;
-    margin-bottom: -32rem;
     padding: 40px;
     
 }
@@ -205,7 +210,6 @@ section {
     border-radius: 10px;
     border: 1px solid #2EF8A0;
     box-shadow: 0px 0px 16px 0px rgba(46, 248, 160, 0.50);
-    position: fixed;
    
     
 }
@@ -572,14 +576,12 @@ float: right;
     align-items: center;
     width: 100%;
     height: 20rem;
-    margin-top: -20rem;
 }
 .Footer-Container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     width: 1616px;
     height: 12rem;
     background-color: #0C0420;
@@ -921,6 +923,8 @@ float: right;
 }
 @media screen and (max-width: 750px){
     .NavBar{
+        position: fixed;
+        z-index: 5;
         background-color: #0C0420; 
         height: 180px;
     }
@@ -928,9 +932,9 @@ float: right;
     .Box-Links{
         width: 100%;
         height: 100%;
-        position: fixed;
         left: -100%;
         border: none;
+        position: absolute;
         gap: 10rem;
         box-shadow: none;
         transition:  all .5s;
@@ -949,13 +953,14 @@ float: right;
        
     }
 
-    .Seccion1{
+    .Sec1-movil{
         display: flex;
         flex-direction: column;
         justify-content:space-between;
         align-items: center;
-        width: 616px;
+        width: 100%;
         height: 1300px;
+        margin-top: 15rem;
         
     }
     .ID-Card{
@@ -983,26 +988,27 @@ float: right;
     .Presentacion-Card-Foto{
         margin-left: 15px;
     }
-    .Seccion2{
-        margin-top: 30rem;
-        width: 616px;
+    .Sec2-movil{
+        width: 100%;
         height: 2750px;
     }
     .AcercadeMiCard-Card-secciones-Seccion p{
         font-size: 22px;
     }
-    .Seccion3{
-        margin-top: 500px;
-        width: 616px;
+    .Sec3-movil{
+        width: 100%;
         height: 850px;
     }
     .Contáctame-Form-Boton{
     
         margin-left: 13rem;
     }
+    .Footer{
+        margin-top: 10rem;
+    }
     .Footer-Container{
-        width: 616px;
-        margin-top: 50rem;
+        width: 100%;
+        
     }
 }
 @media screen and (max-width: 650px){
@@ -1196,8 +1202,7 @@ float: right;
     }
     .Seccion1{
         width: 316px;
-        height: 1300px;
-        
+        height: 1300px;      
     }
     .ID-Card{
         width: 207px;
@@ -1211,10 +1216,10 @@ float: right;
     .Presentacion-Card-Foto{
         margin-left: -1px;
     }
-    .Seccion2{
-        margin-top: 30rem;
+    .Seccion2{  
         width: 316px;
         height: 2750px;
+        background-color: re;
     }
     .AcercadeMiCard-ContainerNav-enlaces{
         font-size: 4px;
@@ -1224,7 +1229,6 @@ float: right;
         font-size: 10px;
     }
     .Seccion3{
-        margin-top: 500px;
         width: 316px;
         height: 850px;
     }
@@ -1240,7 +1244,6 @@ float: right;
     }
     .Footer-Container{
         width: 316px;
-        margin-top: 50rem;
     }
     .Footer-Container-RedesSociales{
         gap: 8rem;
