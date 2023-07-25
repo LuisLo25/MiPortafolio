@@ -1378,7 +1378,12 @@ section {
 
     #Texto {
         margin-top: 25px;
-        padding-right: 20px;
+        padding-right: 10px;
+        font-size: 1rem;
+    }
+
+    .Presentacion-Card-Descripcion-Fijo {
+        font-size: 10px;
     }
 
     .Presentacion-Card-Descripcion-Container {
@@ -1511,16 +1516,6 @@ section {
         align-items: flex-start;
         width: 100%;
         height: 450px;
-    }
-
-    #Texto {
-        margin-top: 25px;
-        padding-right: 20px;
-        font-size: 1rem;
-    }
-
-    .Presentacion-Card-Descripcion-Fijo {
-        font-size: 10px;
     }
 
     .Presentacion-Card-Descripcion-Container {
