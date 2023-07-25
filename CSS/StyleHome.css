@@ -962,7 +962,7 @@ section {
         left: -100%;
         border: none;
         position: absolute;
-        gap: 10rem;
+        gap: 12rem;
         box-shadow: none;
         transition: all .5s;
         background: none;
@@ -1047,6 +1047,386 @@ section {
 
     .Footer {
         margin-top: 20rem;
+    }
+
+    .Footer-Container {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .NavBar {
+        position: fixed;
+        z-index: 5;
+        background-color: #0C0420;
+        height: 180px;
+        width: 100%;
+    }
+
+    .Box-Links {
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        border: none;
+        position: absolute;
+        gap: 10rem;
+        box-shadow: none;
+        transition: all .5s;
+        background: none;
+
+    }
+
+    .checkbtn {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: 30rem;
+
+    }
+
+    #check:checked~.Box-Links {
+        left: 0;
+
+    }
+
+    .Seccion1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1050px;
+        width: 100%;
+        margin-top: 15rem;
+
+    }
+
+    .ID-Card {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .ID-Card-Foto {
+        width: 100%;
+        height: 250px;
+    }
+
+    .Presentacion-Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 450px;
+    }
+
+    #Texto {
+        margin-top: 25px;
+        padding-right: 20px;
+    }
+
+    .Presentacion-Card-Descripcion-Container {
+        margin-top: 25px;
+    }
+
+    .Presentacion-Card-Foto {
+        padding: 0;
+        margin-left: 0;
+        height: 250px;
+        width: 100%;
+    }
+
+    .Seccion2 {
+        margin-top: 25rem;
+        height: 2750px;
+
+    }
+
+    .AcercadeMiCard-Card-secciones-Seccion p {
+        font-size: 22px;
+    }
+
+    .Seccion3 {
+        margin-top: 15rem;
+        height: 850px;
+    }
+
+
+    .Footer {
+        margin-top: 20rem;
+    }
+
+    .Footer-Container {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .NavBar {
+        position: fixed;
+        z-index: 5;
+        background-color: #0C0420;
+        height: 180px;
+        width: 100%;
+    }
+
+    .Box-Links {
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        border: none;
+        position: absolute;
+        gap: 6rem;
+        box-shadow: none;
+        transition: all .5s;
+        background: none;
+
+    }
+
+    .checkbtn {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: 25rem;
+
+    }
+
+    #check:checked~.Box-Links {
+        left: 0;
+
+    }
+
+    .Seccion1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1050px;
+        width: 100%;
+        margin-top: 15rem;
+
+    }
+
+    .ID-Card {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .ID-Card-Foto {
+        width: 100%;
+        height: 250px;
+    }
+
+    .Presentacion-Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 450px;
+    }
+
+    #Texto {
+        margin-top: 25px;
+        padding-right: 20px;
+    }
+
+    .Presentacion-Card-Descripcion-Container {
+        margin-top: 25px;
+    }
+
+    .Presentacion-Card-Foto {
+        padding: 0;
+        margin-left: 0;
+        height: 250px;
+        width: 100%;
+    }
+
+    .AcercadeMiCard-ContainerNav-SubNav {
+        display: none;
+
+    }
+
+    .Seccion2 {
+        margin-top: 25rem;
+        height: 2550px;
+
+    }
+
+    .AcercadeMiCard-Card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .AcercadeMiCard-Card-secciones-Seccion {
+        width: 100%;
+    }
+
+    .AcercadeMiCard-Card-secciones-Seccion p {
+        font-size: 22px;
+    }
+
+    .Seccion3 {
+        margin-top: 15rem;
+        height: 850px;
+    }
+
+
+    .Footer {
+        margin-top: 20rem;
+    }
+
+    .Contáctame-Form-Flex {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Contáctame-Form-Flex-Input {
+        width: 100%;
+    }
+
+    .Footer-Container {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .NavBar {
+        position: fixed;
+        z-index: 5;
+        background-color: #0C0420;
+        height: 180px;
+        width: 100%;
+    }
+
+    .Box-Links {
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        border: none;
+        position: absolute;
+        gap: 4rem;
+        box-shadow: none;
+        transition: all .5s;
+        background: none;
+
+    }
+
+    .checkbtn {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: 20rem;
+
+    }
+
+    #check:checked~.Box-Links {
+        left: 0;
+
+    }
+
+    .Seccion1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1050px;
+        width: 100%;
+        margin-top: 15rem;
+
+    }
+
+    .ID-Card {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .ID-Card-Foto {
+        width: 100%;
+        height: 250px;
+    }
+
+    .Presentacion-Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 450px;
+    }
+
+    #Texto {
+        margin-top: 25px;
+        padding-right: 20px;
+    }
+
+    .Presentacion-Card-Descripcion-Container {
+        margin-top: 25px;
+    }
+
+    .Presentacion-Card-Foto {
+        padding: 0;
+        margin-left: 0;
+        height: 250px;
+        width: 100%;
+    }
+
+    .AcercadeMiCard-ContainerNav-SubNav {
+        display: none;
+
+    }
+
+    .Seccion2 {
+        margin-top: 25rem;
+        height: 100%;
+
+    }
+
+    .AcercadeMiCard-Card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .AcercadeMiCard-Card-secciones-Seccion {
+        width: 100%;
+    }
+
+    .AcercadeMiCard-Card-secciones-Seccion p {
+        font-size: 22px;
+    }
+
+    .Seccion3 {
+        margin-top: 15rem;
+        height: 850px;
+    }
+
+
+    .Footer {
+        margin-top: 20rem;
+    }
+
+    .Contáctame-Form-Flex {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Contáctame-Form-Flex-Input {
+        width: 100%;
+    }
+
+    .Footer-Container-RedesSociales {
+        gap: 5rem;
     }
 
     .Footer-Container {
@@ -1156,16 +1536,6 @@ section {
         margin-top: 25rem;
         height: 850px;
         padding: 0;
-    }
-
-    .Contáctame-Form-Flex {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .Contáctame-Form-Flex-Input {
-        width: 100%;
     }
 
     .Footer {
