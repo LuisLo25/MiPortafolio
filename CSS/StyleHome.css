@@ -1270,7 +1270,6 @@ section {
     }
 
     .AcercadeMiCard-Card-secciones-Seccion p {
-        text-align: justify;
         font-size: 15px;
     }
 
@@ -1542,6 +1541,10 @@ section {
 
     .AcercadeMiCard-Card-secciones-Seccion p {
         font-size: 22px;
+    }
+
+    .AcercadeMiCard-Card-secciones-Seccion p {
+        font-size: 10px;
     }
 
     .Seccion3 {
