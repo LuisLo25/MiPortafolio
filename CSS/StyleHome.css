@@ -1031,6 +1031,7 @@ section {
         width: 100%;
     }
 
+
     .Seccion2 {
         margin-top: 25rem;
         height: 2750px;
@@ -1043,7 +1044,7 @@ section {
 
     .Seccion3 {
         margin-top: 15rem;
-        height: 850px;
+        height: 100%
     }
 
 
@@ -1153,13 +1154,9 @@ section {
 
     }
 
-    .AcercadeMiCard-Card-secciones-Seccion p {
-        font-size: 22px;
-    }
-
     .Seccion3 {
         margin-top: 15rem;
-        height: 850px;
+        height: 100%;
     }
 
 
@@ -1272,6 +1269,11 @@ section {
         margin-left: 0;
     }
 
+    .AcercadeMiCard-Card-secciones-Seccion p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
     .AcercadeMiCard-Card-secciones-Seccion {
         width: 100%;
     }
@@ -1282,7 +1284,7 @@ section {
 
     .Seccion3 {
         margin-top: 15rem;
-        height: 850px;
+        height: 100%;
     }
 
 
@@ -1419,7 +1421,7 @@ section {
 
     .Seccion3 {
         margin-top: 15rem;
-        height: 850px;
+        height: 100%;
     }
 
 
