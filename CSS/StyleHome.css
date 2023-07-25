@@ -1516,6 +1516,11 @@ section {
     #Texto {
         margin-top: 25px;
         padding-right: 20px;
+        font-size: 1rem;
+    }
+
+    .Presentacion-Card-Descripcion-Fijo {
+        font-size: 10px;
     }
 
     .Presentacion-Card-Descripcion-Container {
