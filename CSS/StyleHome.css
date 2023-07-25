@@ -1390,7 +1390,7 @@ section {
     }
 
     .Presentacion-Card-Foto {
-        padding: 0;
+        padding: 10px;
         margin-left: 0;
         height: 250px;
         width: 100%;
