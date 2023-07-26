@@ -494,10 +494,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10rem;
-    margin-top: 30px;
+    margin-top: 13rem;
     width: 0;
-    opacity: 0;
 
 }
 
