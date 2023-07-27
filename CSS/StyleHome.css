@@ -1279,6 +1279,7 @@ section {
     .AcercadeMiCard-Card-secciones-Seccion-Encabezado {
         width: 100%;
         opacity: 1;
+        margin-top: 0;
     }
 
     .AcercadeMiCard-Card-secciones-Seccion p {
