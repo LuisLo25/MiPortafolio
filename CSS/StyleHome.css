@@ -1120,7 +1120,6 @@ section {
         align-items: center;
         height: 1050px;
         width: 100%;
-        margin-top: 10rem;
 
     }
 
@@ -1160,13 +1159,10 @@ section {
         width: 100%;
     }
 
-    .Seccion2 {
-        margin-top: 10rem;
-
-    }
+    .Seccion2 {}
 
     .Seccion3 {
-        margin-top: 10rem;
+
         height: 100%;
     }
 
