@@ -1122,7 +1122,6 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 1050px;
         width: 100%;
 
     }
@@ -1163,11 +1162,9 @@ section {
         width: 100%;
     }
 
-    .Seccion2 {}
-
     .Seccion3 {
 
-        height: 100%;
+        height: auto;
     }
 
 
