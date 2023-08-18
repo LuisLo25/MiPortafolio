@@ -190,7 +190,6 @@ section {
 .Sec3 {
     width: 100%;
     height: auto;
-    padding-top: 10px;
 
 }
 
@@ -283,6 +282,7 @@ section {
     border-radius: 8px;
     opacity: 0.8;
     width: 100%;
+    height: auto;
     margin-top: 2rem;
     padding: 5rem;
 
@@ -397,10 +397,13 @@ section {
 
 .Seccion2 {
     display: flex;
+    height: auto;
+    width: 100%;
     align-items: start;
     background-color: #0C0420;
     border-radius: 8px;
     padding-bottom: 10px;
+
     opacity: 0.8;
 }
 
@@ -532,6 +535,7 @@ section {
 /*---------------------Tercera Seccion--------------------*/
 .Seccion3 {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
