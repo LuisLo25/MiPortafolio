@@ -494,7 +494,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     width: 0;
     opacity: 0;
     text-shadow: 0px 0px 2px #2EF8A0,
@@ -1283,7 +1283,7 @@ section {
     .AcercadeMiCard-Card-secciones-Seccion-Encabezado {
         width: 100%;
         opacity: 1;
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
 
     .AcercadeMiCard-Card-secciones-Seccion p {
