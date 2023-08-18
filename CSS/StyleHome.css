@@ -1269,7 +1269,7 @@ section {
 
     .Seccion2 {
         margin-top: 25rem;
-        height: 2750px;
+        height: auto;
 
     }
 
@@ -1282,7 +1282,6 @@ section {
 
     .AcercadeMiCard-Card-secciones-Seccion-Encabezado {
         width: 100%;
-        height: auto;
         opacity: 1;
         margin-top: 0rem;
     }
