@@ -1282,6 +1282,7 @@ section {
 
     .AcercadeMiCard-Card-secciones-Seccion-Encabezado {
         width: 100%;
+        height: auto;
         opacity: 1;
         margin-top: 0rem;
     }
